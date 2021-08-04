@@ -1,1 +1,17 @@
-<router-outlet></router-outlet>
+<div class="flex justify-between bg-indigo-500 px-12 py-6">
+
+  <div class="flex items-center gap-x-4">
+    <img src="logo" alt="" width="80" height="80">
+    <span class="text-3xl text-white font-semibold">Novels Tracker</span>
+  </div>
+
+  <div class="flex items-center gap-x-4 text-lg text-white font-semibold">
+    <button pButton label="Novel List" class="navigation-btn"></button>
+    <button pButton label="New Novel" class="navigation-btn"></button>
+  </div>
+
+</div>
+
+<div class="p-8">
+  <router-outlet></router-outlet>
+</div>

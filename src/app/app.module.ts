@@ -9,6 +9,7 @@ import {AppRoutingModule} from './app-routing.module';
 
 import {AppComponent} from './app.component';
 import {PrimeNgModule} from './prime-ng/prime-ng.module';
+import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,7 +20,8 @@ import {PrimeNgModule} from './prime-ng/prime-ng.module';
     HttpClientModule,
     SharedModule,
     AppRoutingModule,
-    PrimeNgModule
+    PrimeNgModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
