@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class="flex flex-row flex-wrap justify-center gap-4 my-4">
+  <div class="w-1/4 rounded bg-white p-5 flex items-center gap-4" *ngFor="let category of filteredCategories">
+    <img src="assets/book.png" alt="" height="250" class="w-1/2">
+    <div class="flex flex-col w-1/2">
+      <div class="text-2xl font-semibold truncate ">Title fdf fds fd fdfds fdfdsfdsffsd</div>
+      <div class="text-lg">Origin - Status - Chp.190</div>
+      <div>date</div>
+      <div class="flex gap-x-1 mt-4">
+        <button pButton icon="pi pi-exclamation-circle" class="p-button-raised p-button-rounded p-button-help"></button>
+        <button pButton icon="pi pi-pencil" class="p-button-raised p-button-rounded p-button-info"></button>
+        <button pButton icon="pi pi-trash" class="p-button-raised p-button-rounded p-button-danger"></button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,17 +1,22 @@
-<div class="flex justify-between bg-indigo-500 px-12 py-6">
+<div class="min-h-full flex flex-col">
 
-  <div class="flex items-center gap-x-4">
-    <img src="logo" alt="" width="80" height="80">
-    <span class="text-3xl text-white font-semibold">Novels Tracker</span>
+  <!-- Toolbar -->
+  <div class="flex justify-between bg-purple-700 px-12 py-6 sticky top-0">
+
+    <div class="flex items-center gap-x-4">
+      <span class="text-3xl text-white font-semibold">Novels Tracker</span>
+    </div>
+
+    <div class="flex items-center gap-x-1 text-lg text-white font-semibold">
+      <button pRipple class="navigation-btn">Novel List</button>
+      <button pRipple class="navigation-btn">New Novel</button>
+    </div>
+
   </div>
 
-  <div class="flex items-center gap-x-4 text-lg text-white font-semibold">
-    <button pButton label="Novel List" class="navigation-btn"></button>
-    <button pButton label="New Novel" class="navigation-btn"></button>
+  <!-- Content -->
+  <div class="p-8 bg-gray-800 flex-grow">
+    <router-outlet></router-outlet>
   </div>
 
-</div>
-
-<div class="p-8">
-  <router-outlet></router-outlet>
 </div>

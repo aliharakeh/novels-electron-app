@@ -1,7 +1,7 @@
 .navigation-btn {
+  @apply border border-solid border-transparent bg-transparent py-4 px-6 rounded-lg text-white text-xl cursor-pointer;
 
-  &.p-button {
-    @apply bg-red-500;
+  &:hover {
+    @apply border border-solid border-white;
   }
-
 }

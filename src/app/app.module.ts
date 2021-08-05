@@ -13,16 +13,16 @@ import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    HttpClientModule,
-    SharedModule,
-    AppRoutingModule,
-    PrimeNgModule,
-    PagesModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        FormsModule,
+        HttpClientModule,
+        SharedModule,
+        AppRoutingModule,
+        PrimeNgModule,
+        PagesModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
